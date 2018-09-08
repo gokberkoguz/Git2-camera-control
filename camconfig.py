@@ -63,8 +63,8 @@ import sj4000
 from bs4 import BeautifulSoup
 camera=sj4000.camera()
 
-#camera.set_wifi_name("HisseliHarikalar") #SWITCHES ONLY CONNECT AND DISCONNECT)
-#camera.set_wifi_pw("hhf-sormagir")          
+#camera.set_wifi_name("") #SWITCHES ONLY CONNECT AND DISCONNECT)
+#camera.set_wifi_pw("")          
 
 
 ret=camera.http_test()  #HttpTEst return 'HTTP socket CLOSED' or 'HTTP socket OPEN'
